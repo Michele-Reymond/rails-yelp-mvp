@@ -12,6 +12,10 @@
   </head>
 
   <body>
+    <nav class="navbar-lewagon navbar-collapse">
+      <%= link_to 'Restaurants', restaurants_path %>
+      <%= link_to 'Créer un restaurant', new_restaurant_path  %>
+    </nav>
     <%= yield %>
   </body>
 </html>

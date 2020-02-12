@@ -1,0 +1,81 @@
+// Place all the styles related to the restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  text-align: center;
+  color: $blue;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#restaurants-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#restaurants-list ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+#restaurants-list li {
+  padding: 20px;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: $blue;
+}
+
+#restaurants-list li:hover {
+  background-color: $blue;
+  color: white;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  width: 450px;
+  padding: 20px;
+  background-color: white;
+}
+
+.reviews li {
+  border-bottom: 2px solid $light-gray;
+  padding-bottom: 10px;
+}
+
+span {
+  font-weight: bolder;
+  color: $blue;
+
+}
+
+.bouton {
+  margin-top: 20px;
+}
+
+.onereview {
+  display: flex;
+}
+
+.onereview li:nth-child(1){
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+.onereview li:nth-child(2){
+  font-size: 2em;
+  color: $blue;
+}
